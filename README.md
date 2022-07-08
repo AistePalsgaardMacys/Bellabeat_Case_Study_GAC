@@ -24,12 +24,12 @@ Assumptions:
 
 * Data is said to be from 30 people, but 33 unique Id’s are found, we will assume that this is due to updates made to the data.
 
-### Change Log
+## Change Log
 
 Change Log can be accessed [here](https://github.com/AistePalsgaardMacys/Bellabeat_Case_Study_GAC/blob/main/Change%20Log%20Bellabeat.docx)
 
 
-### Data Completion
+## Data Completion
 
 #### daily_activity_cleaning -Excel Pivot Table-
 
@@ -140,19 +140,19 @@ Nearly all of them tracked it with pattern emerging, meaning that they have done
 
 ## Analysis
 
-#### 1st Hypothesis
+### 1st Hypothesis
 
 Calories burned are impacted by number of Steps, Distance and Activity Level.
 
-#### 2nd Hypothesis
+### 2nd Hypothesis
 
 People tend to lay in bed for up to an hour before falling asleep.
 
-#### 3rd Hypothesis
+### 3rd Hypothesis
 
 Customers that track their Heartrate, Sleep and Weight tend to lose more calories than the average customer.
 
-##### Hypothesis nr. 1
+#### Hypothesis nr. 1
 
 <img width="326" alt="caloriesvssteps" src="https://user-images.githubusercontent.com/105588939/178061471-6f721f74-4674-4272-a582-823dc90dc8b9.png">
 
@@ -166,11 +166,11 @@ Calories and Distance are correlated even more than steps with calories as the t
 
 Intensity of the activity is correlated with loss of calories, the more you move the more calories you burn. Furthermore, inactivity of a person can have a negative impact on calorie burning, as the number of calories burnt declines resulting in a negative trendline and possible health risks.
 
-##### Answer
+#### Answer
 
 Calories are something that customers tend to track with smart devices, therefore it’s important to look into how we can promote that aspect in our marketing strategy. Burning of calories is connected to activity intensity, the number of steps a person takes, and distance that one travels.
 
-##### Hypothesis nr. 2
+#### Hypothesis nr. 2
 
 We should differentiate between ‘TotalTimeInBed’ and ‘TotalMinutesAsleep’. We will divide this difference by 2 as the ‘TotalTimeInBed’ column might include time spent in bed before and after falling asleep.
 
@@ -178,11 +178,11 @@ We should differentiate between ‘TotalTimeInBed’ and ‘TotalMinutesAsleep�
 
 Most people from our customer data set seem to lay in bed between ∈[0 , 50] minutes before falling asleep.
 
-##### Answer
+#### Answer
 
 Knowing how much time you need in order to fall asleep can make your day easier to plan and therefore help you get the amount of sleep you truly need. People from our customer dataset tend to lay in bed between 0 to 50 minutes before falling asleep. They could try to utilize that time to become more tired before sleeping or to go to bed before they normally would in order to get exactly the amount of sleep they prefer.
 
-##### Hypothesis nr. 3
+#### Hypothesis nr. 3
 
 There is only one customer (6962181067) that tracked all three aspects: Heartrate, Sleep and Weight.
 
@@ -194,7 +194,7 @@ The average calories burnt per customer in this dataset is:
 
 <img width="300" alt="averageothercalories" src="https://user-images.githubusercontent.com/105588939/178062044-1d86291f-5f15-4079-884c-afb0ed69fe58.png">
 
-##### Answer
+#### Answer
 
 We can’t make conclusions based on only one customer that follows all three measures: heartrate, sleep and weight. However, if we would infer on these results we would reject this hypothesis as average calorie burn per customer is higher then the one of a all-tracking customer. Meaning that tracking several aspects would not make it likely that you will lose more calories than those who don’t follow them.
 
