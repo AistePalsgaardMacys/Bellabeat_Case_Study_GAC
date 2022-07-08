@@ -35,11 +35,11 @@ Change Log can be accessed [here](https://github.com/AistePalsgaardMacys/Bellabe
 
 All 33 Id’s registered.
 
-#### heartrate_seconds_merged -R-
+#### heartrate_seconds_merged - R -
 
 There are 14 Id’s registered from 33.
 
-#### hourlyCalories_merged ( R )
+#### hourlyCalories_merged - R -
 
 There are 32 Id’s registered from 33.
 
