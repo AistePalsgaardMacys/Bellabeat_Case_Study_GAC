@@ -1,0 +1,13 @@
+-- Group by Hour, so that the same hour in one day does not have  several entries.
+
+SELECT Id,Time_Hour, AVG(Heartbeat) AS hearbeat_Avg
+FROM `quick-elixir-351416.bellabeat.heartrate_hourly`
+GROUP BY Time_Hour,Id
+ORDER BY Id,Time_Hour
+
+-- Group by hour/day so that the same day does not have several entries
+
+SELECT Dates, Id, AVG(WeightKg) AS WeightKg, AVG(BMI) AS BMI, IsManualReport
+FROM `quick-elixir-351416.bellabeat.weight_log_cleaned`
+GROUP BY Dates,Id, IsManualReport
+ORDER BY Id, Dates;
