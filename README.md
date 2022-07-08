@@ -1,5 +1,6 @@
 # Bellabeat_Case_Study_GAC
-This is a case study from Google Analytics Certificate. Please read the case study file in order to gain understanding of a project.
+
+This is a case study from Google Analytics Certificate. Please read the [case study file](https://github.com/AistePalsgaardMacys/Bellabeat_Case_Study_GAC/blob/main/Bellabeat%20Case%20Study.pdf) in order to gain understanding of a project.
 
 
 ## Main Question
